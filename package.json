@@ -1,0 +1,25 @@
+{
+  "name": "vrpingpong",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run build\" \"npm run server\""
+  },
+  "author": "kirill",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "three": "^0.138.0"
+  },
+  "devDependencies": {
+    "babylonjs": "^4.2.1",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  }
+}
